@@ -1,15 +1,15 @@
 {
-  "name": "Snaked",
-  "short_name": "Snaked",
+  "name": "SnakeAgain",
+  "short_name": "SnakeAgain",
   "description": "",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#000",
-  "theme_color": "#000",
-  "orientation": "landscape",
+  "background_color": "#030712",
+  "theme_color": "#030712",
+  "orientation": "standalone",
   "icons": [
     {
-      "src": "/assets/icon.png",
+      "src": "/assets/snakeagain.png",
       "sizes": "192x192",
       "type": "image/png"
     }

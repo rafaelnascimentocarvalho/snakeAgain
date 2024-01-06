@@ -31,20 +31,17 @@ export default function Template({ children }: { children: React.ReactNode }) {
         <meta name="audience" content="all" />
         <link rel="shortcut icon" href="/assets/snakeagain.png"></link>
 
-        <meta name="msapplication-TileColor" content="#000" />
-        <meta name="theme-color" content="#000" />
+        <meta name="msapplication-TileColor" content="#030712" />
+        <meta name="theme-color" content="#030712" />
 
         <title>SnakeAgain</title>
 
         <meta name="title" content="SnakeAgain" />
         <meta name="description" content="SnakeAgain" />
 
-        <meta property="og:image" content="/assets/snakeagain-print.png" />
+        <meta property="og:image" content="/assets/snakeagain.png" />
 
-        <meta
-          property="og:image:secure_url"
-          content="/assets/snakeagain-print.png"
-        />
+        <meta property="og:image:secure_url" content="/assets/snakeagain.png" />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="300" />
 

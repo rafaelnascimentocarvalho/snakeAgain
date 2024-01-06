@@ -166,7 +166,7 @@ const Home: React.FC = () => {
           <button
             onTouchStart={() => touch("LEFT")}
             onClick={() => touch("LEFT")}
-            className="w-full p-4 bg-gray-900 rounded-md relative"
+            className="w-full p-6 bg-gray-900 rounded-md relative"
           >
             <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -mt-[2px]">
               {"<"}
@@ -176,7 +176,7 @@ const Home: React.FC = () => {
             <button
               onTouchStart={() => touch("UP")}
               onClick={() => touch("UP")}
-              className="w-full p-4 bg-gray-900 rounded-md relative"
+              className="w-full p-6 bg-gray-900 rounded-md relative"
             >
               <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-90 ml-1">
                 {"<"}
@@ -185,7 +185,7 @@ const Home: React.FC = () => {
             <button
               onTouchStart={() => touch("DOWN")}
               onClick={() => touch("DOWN")}
-              className="w-full p-4 bg-gray-900 rounded-md relative"
+              className="w-full p-6 bg-gray-900 rounded-md relative"
             >
               <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-90 ml-1">
                 {">"}
@@ -195,7 +195,7 @@ const Home: React.FC = () => {
           <button
             onTouchStart={() => touch("RIGHT")}
             onClick={() => touch("RIGHT")}
-            className="w-full p-4 bg-gray-900 rounded-md relative"
+            className="w-full p-6 bg-gray-900 rounded-md relative"
           >
             <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -mt-[2px]">
               {">"}
