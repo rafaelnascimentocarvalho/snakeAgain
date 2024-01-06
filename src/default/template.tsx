@@ -29,21 +29,21 @@ export default function Template({ children }: { children: React.ReactNode }) {
         />
         <link rel="manifest" href="/manifest.json" />
         <meta name="audience" content="all" />
-        <link rel="shortcut icon" href="/assets/dona-dalva.png"></link>
+        <link rel="shortcut icon" href="/assets/snakeagain.png"></link>
 
         <meta name="msapplication-TileColor" content="#000" />
         <meta name="theme-color" content="#000" />
 
-        <title>Dona Dalva</title>
+        <title>SnakeAgain</title>
 
-        <meta name="title" content="Dona Dalva" />
-        <meta name="description" content="Dona Dalva" />
+        <meta name="title" content="SnakeAgain" />
+        <meta name="description" content="SnakeAgain" />
 
-        <meta property="og:image" content="/assets/donadalva-print.png" />
+        <meta property="og:image" content="/assets/snakeagain-print.png" />
 
         <meta
           property="og:image:secure_url"
-          content="/assets/donadalva-print.png"
+          content="/assets/snakeagain-print.png"
         />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="300" />
