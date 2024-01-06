@@ -1,0 +1,60 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  :root {
+    --font-display: "DotGothic16", sans-serif;
+    --font-body: "DotGothic16", sans-serif;
+  }
+
+  html {
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: var(--font-display) !important;
+    color: var(--text-white);
+    @apply bg-gray-950;
+  }
+
+  * {
+    user-select: none;
+    image-rendering: pixelated;
+    touch-action: manipulation !important;
+    @apply outline-0;
+  }
+
+  .ease {
+    transition: all 0.2s ease;
+  }
+
+  .container-medium {
+    @apply mx-auto max-w-[1400px] px-4;
+  }
+
+  .form-control {
+    @apply w-full p-4;
+  }
+
+  .btn {
+    transition: all 0.2s ease;
+    @apply rounded-full inline-block text-center;
+  }
+}
+
+/* MODAL */
+.modal {
+  transition: opacity 0.2s ease;
+  @apply fixed bg-white h-0 w-0 left-0 top-0 z-50 overflow-hidden opacity-0;
+
+  &.active {
+    @apply h-full w-full opacity-100;
+  }
+}
+
+.modal-sidebar {
+  @apply fixed ease-in-out opacity-0 duration-700 bg-white shadow-2xl h-full w-full max-w-[90vw] md:max-w-md right-0 top-0 z-50 -mr-[200rem];
+
+  &.active {
+    @apply mr-0 opacity-100;
+  }
+}
